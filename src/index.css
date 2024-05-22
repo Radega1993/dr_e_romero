@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+a {
+  @apply text-gold no-underline;
+}
+
+a:hover {
+  @apply underline;
+}
+
+.navbar, .footer {
+  @apply bg-black text-gold;
+}
+
+.main-content {
+  @apply p-5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gold;
+}
+
+.border-gold {
+  border-color: #d4af37;
+}
+
+.text-gold {
+  color: #d4af37;
+}
